@@ -1,0 +1,60 @@
+/* =================================
+   ROOT
+==================================== */
+
+:root {
+
+   /* ===== NORMALIZE ===== */
+
+
+   /* Шрифт */
+   --app-font-family: "Rubik", sans-serif;
+   /* --app-font-family: ui-sans-serif, -apple-system, system-ui, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; */
+   --app-font-size: 14px;
+   --app-font-weight: 400;
+   --app-font-style: normal;
+
+   /* Убирает синий фон объектов которые выделяются */
+   --app-tap-bg: rgba(0, 0, 0, 0);
+
+   /* Цвет выделенного текста */
+   --app-text-bg-selection: rgba(0, 0, 0, 0.2);
+
+   /* Основные цвета. */
+   --app-text-color: rgba(255, 255, 255, 1);
+   --app-body-bg-color: #2E204E;
+
+   /* ===== NORMALIZE END ===== */
+
+   /* ===== Z-INDEXES ===== */
+
+   --app-z-1: 100;
+   --app-z-2: 200;
+   --app-z-3: 300;
+
+   /* ===== ICON SIZES ===== */
+
+   --app-icon-size-sm: 20px;
+   --app-icon-size-md: 28px;
+   --app-icon-size-lg: 46px;
+   --app-icon-size-xl: 100px;
+
+}
+
+/* =================================
+   MEDIA
+==================================== */
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 500px) {}
+
+@media (max-width: 425px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 320px) {}
+
+/* ============ END :) ============ */

@@ -1,0 +1,51 @@
+/* =================================
+   HELP
+==================================== */
+
+/* Отключает полностью поведение элемента и его масу. */
+._unuse {
+   -ms-user-select: none;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+
+   pointer-events: none;
+   user-select: none;
+   cursor: none;
+}
+
+/* Отключает выделение и стандартное поведение при касании (сенсор). */
+._untouch {
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+
+   user-select: none;
+   touch-action: none;
+}
+
+/* Нельзя выделять и тянуть текст / компонент. */
+._unselect {
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+
+   user-select: none;
+}
+
+/* =================================
+   MEDIA
+==================================== */
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 500px) {}
+
+@media (max-width: 425px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 320px) {}
+
+/* ============ END :) ============ */

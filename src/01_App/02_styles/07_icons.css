@@ -1,0 +1,82 @@
+/* =================================
+   ICONS
+==================================== */
+
+/* Базовый стиль для всех иконок */
+.icon {
+   display: inline-block;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   vertical-align: middle;
+
+   transition: transform 200ms ease-in-out;
+}
+
+/* Размеры. */
+.icon-sm {
+   width: var(--app-icon-size-sm);
+   height: var(--app-icon-size-sm);
+}
+
+.icon-md {
+   width: var(--app-icon-size-md);
+   height: var(--app-icon-size-md);
+}
+
+.icon-lg {
+   width: var(--app-icon-size-lg);
+   height: var(--app-icon-size-lg);
+}
+
+.icon-xl {
+   width: var(--app-icon-size-xl);
+   height: var(--app-icon-size-xl);
+}
+
+/* Иконки. */
+.icon-rocket {
+   background-image: url('icons/svg/rocket.svg');
+}
+
+.icon-fight {
+   background-image: url('icons/svg/fight.svg');
+}
+
+.icon-user {
+   background-image: url('icons/svg/user.svg');
+}
+
+.icon-puser {
+   background-image: url('icons/svg/puser.svg');
+}
+
+.icon-shop {
+   background-image: url('icons/svg/shop.svg');
+}
+
+.icon-box {
+   background-image: url('icons/svg/box.svg');
+}
+
+.icon-menu {
+   background-image: url('icons/svg/menu.svg');
+}
+
+/* =================================
+   MEDIA
+==================================== */
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 500px) {}
+
+@media (max-width: 425px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 320px) {}
+
+/* ============ END :) ============ */
